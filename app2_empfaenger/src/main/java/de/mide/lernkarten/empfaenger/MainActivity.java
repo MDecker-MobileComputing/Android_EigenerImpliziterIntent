@@ -6,7 +6,8 @@ import android.os.Bundle;
 
 /**
  * App empfängt Lernkarten-Intents, die von der Schwester-App
- * "EigenerIntent-Sender" abgeschickt wurden.
+ * "Lernkarten-Sender" abgeschickt wurden (siehe anderes
+ * App-Modul in diesem Android-Studio-Projekt).
  * <br/><br/>
  *
  * This project is licensed under the terms of the BSD 3-Clause License.

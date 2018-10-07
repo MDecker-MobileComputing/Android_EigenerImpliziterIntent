@@ -14,7 +14,8 @@ import android.view.View;
  * verschickt. Diese Intents enthalten Lernkarten
  * (Text mit Frage/Vorderseite und Text mit
  * Antwort/Rückseite). Zum Empfang dieser Intents wird
- * die Schwester-App "EigenerIntent_Empfaenger" benötigt.
+ * die Schwester-App "Lernkarten-Empfänger" benötigt
+ * (siehe anderen App-Modul in diesem Android-Studio-Projekt).
  * <br><br>
  *
  * This project is licensed under the terms of the BSD 3-Clause License.
