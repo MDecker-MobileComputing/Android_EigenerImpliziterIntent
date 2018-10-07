@@ -1,0 +1,25 @@
+package de.mide.lernkarten.empfaenger;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+
+/**
+ * App empfängt Lernkarten-Intents, die von der Schwester-App
+ * "EigenerIntent-Sender" abgeschickt wurden.
+ * <br/><br/>
+ *
+ * This project is licensed under the terms of the BSD 3-Clause License.
+ */
+public class MainActivity extends Activity {
+
+    /**
+     * Lifecycle-Methode, lädt Layout-Datei.
+     */
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+}

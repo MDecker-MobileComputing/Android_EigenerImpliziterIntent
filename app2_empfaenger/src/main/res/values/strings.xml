@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Lernkarten-Empfänger</string>
+
+    <string name="mainactivity_text">
+        Diese App kann Lernkarten über implizite Intents von
+        einer anderen App empfangen und anzeigen.
+    </string>
+
+    <string name="title_lernkarte_vorne"  >Lernkarte: Vorderseite (Frage)</string>
+    <string name="title_lernkarte_hinten" >Lernkarte: Rückseite (Antwort)</string>
+
+    <string name="button_rueckseite_zeigen">Rückseite (Antwort) zeigen</string>
+
+</resources>

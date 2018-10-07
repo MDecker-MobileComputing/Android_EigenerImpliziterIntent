@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Lernkarten-Sender</string>
+
+    <string name="button_sende_1">Öffne Lernkarte 1</string>
+    <string name="button_sende_2">Öffne Lernkarte 2</string>
+
+</resources>
