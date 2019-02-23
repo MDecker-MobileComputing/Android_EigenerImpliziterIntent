@@ -21,8 +21,8 @@ public class LernkartenActivity extends Activity {
     protected TextView _textviewLernkarte = null;
 
     /**
-     *  Button-Objekt, mit dem die "Rückseite" der Lernkarte
-     *  mit der Antwort angezeigt werden kann.
+     * Button-Objekt, mit dem die "Rückseite" der Lernkarte
+     * mit der Antwort angezeigt werden kann.
      */
     protected Button _buttonRueckseite = null;
 
@@ -34,6 +34,7 @@ public class LernkartenActivity extends Activity {
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lernkarte);
 
