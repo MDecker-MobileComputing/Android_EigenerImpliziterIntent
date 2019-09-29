@@ -43,7 +43,7 @@ public class MainActivity extends Activity {
      * Diese Methode wird in der Layout-Datei mit dem
      * Attribut <i>android:onClick</i> zugewiesen.
      *
-     * @param view Button, der Event ausgelöst hat (wird nicht ausgewertet).
+     * @param view  Button, der Event ausgelöst hat (wird nicht ausgewertet).
      */
     public void onSendenButton1(View view) {
 
@@ -55,6 +55,7 @@ public class MainActivity extends Activity {
         intent.putExtra("text_hinten", "Android Debug Bridge" );
 
         if (wirdIntentUnterstuetzt(intent) == true) {
+
             startActivity(intent);
         }
     }
