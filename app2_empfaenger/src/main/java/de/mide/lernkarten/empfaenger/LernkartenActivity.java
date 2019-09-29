@@ -54,7 +54,7 @@ public class LernkartenActivity extends Activity {
     /**
      * Button-Event-Handler: zeigt "Rückseite" der Lernkarte an.
      *
-     * @param view Button, der Event ausgelöst hat; wird nicht ausgewertet.
+     * @param view  Button, der Event ausgelöst hat; wird nicht ausgewertet.
      */
     public void onButtonRueckseiteZeigen(View view) {
 

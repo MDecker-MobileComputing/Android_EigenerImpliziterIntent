@@ -69,7 +69,7 @@ public class MainActivity extends Activity {
      * Diese Methode wird in der Layout-Datei mit dem
      * Attribut <i>android:onClick</i> zugewiesen.
      *
-     * @param view Button, der Event ausgelöst hat (wird nicht ausgewertet).
+     * @param view  Button, der Event ausgelöst hat (wird nicht ausgewertet).
      */
     public void onSendenButton2(View view) {
 
@@ -131,7 +131,7 @@ public class MainActivity extends Activity {
     /**
      * Hilfs-Methode, um <i>nachricht</i> mit einem Dialog anzuzeigen.
      *
-     * @param nachricht Im Dialog anzuzeigender Text.
+     * @param nachricht  Im Dialog anzuzeigender Text.
      */
     protected void zeigeDialog(String nachricht) {
 

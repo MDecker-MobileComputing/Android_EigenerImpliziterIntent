@@ -14,6 +14,7 @@ import android.os.Bundle;
  */
 public class MainActivity extends Activity {
 
+
     /**
      * Lifecycle-Methode, lädt Layout-Datei.
      */
