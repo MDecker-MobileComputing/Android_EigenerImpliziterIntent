@@ -1,4 +1,4 @@
-# Android-App "Eigener Intent"
+# Android-App "Eigener Intent" #
 
 Two apps demonstrating how to use a **custom implicit intent** to send data (learning cards) from one app to another app.
 
@@ -19,16 +19,15 @@ Identifiers (names for classes, variables and methods), UI text and (JavaDoc) co
 
 <br>
 
-
 ----
-## Screenshots from app 1 (Sender of learning card)
+## Screenshots from app 1 (Sender of learning card) ##
 
 ![Screenshot of sender app (1)](screenshot_sender_1.png) ![Screenshot of sender app (2)](screenshot_sender_2.png) 
 
 <br>
 
 ----
-## Screenshots from app 2 (Receiver of learning card)
+## Screenshots from app 2 (Receiver of learning card) ##
 
 ![Screenshot of receiver app (1)](screenshot_receiver_1.png) 
 
@@ -36,8 +35,7 @@ Identifiers (names for classes, variables and methods), UI text and (JavaDoc) co
 
 <br>
 
-
 ----
-# License
+# License #
 
 See the [LICENSE file](LICENSE.md) for license rights and limitations (BSD 3-Clause License).
