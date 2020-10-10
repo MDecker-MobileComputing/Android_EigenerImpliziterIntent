@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
 
 
     /**
-     * Lifecycle-Methode, lädt Layout-Datei.
+     * Lifecycle-Methode zur Initialisierung des Activity-Objekts.
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {

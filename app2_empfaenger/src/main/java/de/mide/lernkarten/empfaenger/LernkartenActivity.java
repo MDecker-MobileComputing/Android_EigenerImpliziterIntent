@@ -9,8 +9,8 @@ import android.widget.TextView;
 
 
 /**
- * Diese Activity wird angezeigt, wenn ein impliziter
- * Intent mit einer Lernkarte empfangen wird.
+ * Diese Activity wird angezeigt, wenn ein impliziter Intent
+ *  mit einer Lernkarte empfangen wird.
  * <br><br>
  *
  * This project is licensed under the terms of the BSD 3-Clause License.

@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
 
 
     /**
-     * Lifecycle-Methode, lädt Layout-Datei.
+     * Lifecycle-Methode zur Initialisierung des Activity-Objekts.
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,13 +35,12 @@ public class MainActivity extends Activity {
 
 
     /**
-     * Event-Handler für Button 1, um eine bestimmte
-     * Lernkarte (Flash Card) per impliziten Intent an
-     * eine andere App zu schicken.
+     * Event-Handler für Button 1, um eine bestimmte Lernkarte (Flash Card)
+     * per impliziten Intent an eine andere App zu schicken.
      * <br><br>
      *
-     * Diese Methode wird in der Layout-Datei mit dem
-     * Attribut <i>android:onClick</i> zugewiesen.
+     * Diese Methode wird in der Layout-Datei mit dem Attribut
+     * <i>android:onClick</i> zugewiesen.
      *
      * @param view  Button, der Event ausgelöst hat (wird nicht ausgewertet).
      */
@@ -62,12 +61,12 @@ public class MainActivity extends Activity {
 
 
     /**
-     * Event-Handler für Button 2; wie Button 1, nur
-     * mit anderem Inhalt der Flash-Card.
+     * Event-Handler für Button 2; wie Button 1, nur mit anderem Inhalt
+     * der Flash-Card.
      * <br><br>
      *
-     * Diese Methode wird in der Layout-Datei mit dem
-     * Attribut <i>android:onClick</i> zugewiesen.
+     * Diese Methode wird in der Layout-Datei mit dem Attribut
+     * <i>android:onClick</i> zugewiesen.
      *
      * @param view  Button, der Event ausgelöst hat (wird nicht ausgewertet).
      */
