@@ -22,7 +22,6 @@ import android.view.View;
  */
 public class MainActivity extends Activity {
 
-
     /**
      * Lifecycle-Methode zur Initialisierung des Activity-Objekts.
      */
@@ -80,6 +79,7 @@ public class MainActivity extends Activity {
         intent.putExtra("text_hinten", "Dalvik Virtual Machine" );
 
         if (wirdIntentUnterstuetzt(intent) == true) {
+
             startActivity(intent);
         }
     }

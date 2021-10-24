@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="de.mide.lernkarten.empfaenger"
     android:installLocation="auto">
 
@@ -22,7 +23,7 @@
 
         <activity android:name=".LernkartenActivity">
             <!-- Intent-Filter für den Empfang von Lernkarten -->
-            <intent-filter>
+            <intent-filter tools:ignore="AppLinkUrlError">
                 <action   android:name="android.intent.action.VIEW"      />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data     android:mimeType="application/lernkarte"       />
