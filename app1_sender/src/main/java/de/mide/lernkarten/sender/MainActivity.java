@@ -51,10 +51,10 @@ public class MainActivity extends Activity {
         intent.putExtra("text_vorne",  "Wofür steht ADB?"     );
         intent.putExtra("text_hinten", "Android Debug Bridge" );
 
-        //if (wirdIntentUnterstuetzt(intent) == true) {
+        if (wirdIntentUnterstuetzt(intent) == true) {
 
             startActivity(intent);
-        //}
+        }
     }
 
 
@@ -76,10 +76,10 @@ public class MainActivity extends Activity {
         intent.putExtra("text_vorne",  "Wofür steht DVM?"       );
         intent.putExtra("text_hinten", "Dalvik Virtual Machine" );
 
-        //if (wirdIntentUnterstuetzt(intent) == true) {
+        if (wirdIntentUnterstuetzt(intent) == true) {
 
             startActivity(intent);
-        //}
+        }
     }
 
 
@@ -90,11 +90,14 @@ public class MainActivity extends Activity {
      * ausgegeben und <i>false</i> als Ergebnis zurückgeliefert.
      * <br><br>
      *
-     * Wenn diese Methode für einen Intent <i>false</i> liefert,
-     * der Intent aber trotzdem mit <i>startActivity(intent)</i>
-     * abgesetzt wird, dann wird die App vom System beendet
-     * (sie stürzt ab).
+     * Wenn diese Methode für einen Intent <i>false</i> liefert, der Intent aber
+     * trotzdem mit <i>startActivity(intent)</i> abgesetzt wird, dann stürzt
+     * die App ab.
      * <br><br>
+     *
+     * Ab API-Level 30 (Android 11) muss in der Manifest-Datei dieser App
+     * ein entsprechendes queries-Element definiert werden, siehe auch
+     * https://stackoverflow.com/a/64204646
      *
      * Die Verwendung der Methode {@link Intent#resolveActivity(PackageManager)}
      * wird auch auf

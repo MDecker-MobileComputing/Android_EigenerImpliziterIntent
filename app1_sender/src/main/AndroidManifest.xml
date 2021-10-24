@@ -22,4 +22,14 @@
 
     </application>
 
+    <!--
+         Lösung nach https://stackoverflow.com/a/64204646 ,
+         wird ab API-Level 30 für Methode wirdIntentUnterstuetzt() benötigt
+     -->
+    <queries>
+        <intent>
+            <action android:name="de.mide.custom_action.zeige_lernkarte" />
+        </intent>
+    </queries>
+
 </manifest>
