@@ -45,17 +45,16 @@ public class MainActivity extends Activity {
      */
     public void onSendenButton1(View view) {
 
-        Intent intent = new Intent(Intent.ACTION_VIEW);
-
-        intent.setType("application/lernkarte"); // Eigener "MIME-Type"
+        Intent intent = new Intent();
+        intent.setAction("de.mide.custom_action.zeige_lernkarte");
 
         intent.putExtra("text_vorne",  "Wofür steht ADB?"     );
         intent.putExtra("text_hinten", "Android Debug Bridge" );
 
-        if (wirdIntentUnterstuetzt(intent) == true) {
+        //if (wirdIntentUnterstuetzt(intent) == true) {
 
             startActivity(intent);
-        }
+        //}
     }
 
 
@@ -71,17 +70,16 @@ public class MainActivity extends Activity {
      */
     public void onSendenButton2(View view) {
 
-        Intent intent = new Intent(Intent.ACTION_VIEW);
-
-        intent.setType("application/lernkarte");  // Eigener "MIME-Type"
+        Intent intent = new Intent();
+        intent.setAction("de.mide.custom_action.zeige_lernkarte");
 
         intent.putExtra("text_vorne",  "Wofür steht DVM?"       );
         intent.putExtra("text_hinten", "Dalvik Virtual Machine" );
 
-        if (wirdIntentUnterstuetzt(intent) == true) {
+        //if (wirdIntentUnterstuetzt(intent) == true) {
 
             startActivity(intent);
-        }
+        //}
     }
 
 
