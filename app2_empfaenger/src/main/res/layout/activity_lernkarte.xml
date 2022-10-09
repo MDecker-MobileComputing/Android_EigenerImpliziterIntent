@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout 
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,7 +9,7 @@
 
 
     <!-- TextView, um Vorder- oder Rückseite der Lernkarte anzuzeigen -->
-    <TextView 
+    <TextView
         android:id="@+id/textview_lernkarte"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,7 +19,7 @@
         android:textSize="20sp"
         android:gravity="center_horizontal"  />
 
-    <Button 
+    <Button
         android:id="@+id/button_rueckseite_zeigen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
