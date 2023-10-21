@@ -7,6 +7,7 @@ Two apps demonstrating how to use a **custom implicit intent** to send data (lea
 <br>
 
 This Android Studio project contains two apps modules:
+
 * `app1_sender`: App sending a learning card using a custom implicit intent.
 
 * `app2_empfaenger`: App for displaying a learning card received via implicit intent.
@@ -22,7 +23,10 @@ Identifiers (names for classes, variables and methods), UI text and (JavaDoc) co
 <br>
 
 ----
+
 ## Screenshots from app 1 (Sender of learning card) ##
+
+<br>
 
 ![Screenshot of sender app (1)](screenshot_sender_1.png) &nbsp; ![Screenshot of sender app (2)](screenshot_sender_2.png) 
 
@@ -40,8 +44,11 @@ Identifiers (names for classes, variables and methods), UI text and (JavaDoc) co
 
 <br>
 
-
 ----
-# License #
+## License #
+
+<br>
 
 See the [LICENSE file](LICENSE.md) for license rights and limitations (BSD 3-Clause License).
+
+<br>
