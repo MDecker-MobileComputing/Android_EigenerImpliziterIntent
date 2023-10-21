@@ -1,4 +1,4 @@
-package de.mide.lernkarten.sender;
+package de.mide.lernkarten.empfaenger;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("de.mide.lernkarten.sender", appContext.getPackageName());
+        assertEquals("de.mide.lernkarten.empfaenger", appContext.getPackageName());
     }
 }

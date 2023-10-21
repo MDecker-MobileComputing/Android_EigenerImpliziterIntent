@@ -1,8 +1,8 @@
 pluginManagement {
     repositories {
-        gradlePluginPortal()
         google()
         mavenCentral()
+        gradlePluginPortal()
     }
 }
 dependencyResolutionManagement {
@@ -12,5 +12,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Eigenes Impliziter Intent"
-include ':app1_sender', ':app2_empfaenger'
+
+rootProject.name = "Eigener Impliziter Intent"
+include ':app1_sender'
+include ':app2_empfaenger'

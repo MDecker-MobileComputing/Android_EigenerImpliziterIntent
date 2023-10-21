@@ -12,8 +12,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.EigenesImpliziterIntent"
+        android:theme="@style/Theme.EigenerImpliziterIntent"
         tools:targetApi="31">
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -22,8 +23,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
-    
+
     <!--
          Lösung nach https://stackoverflow.com/a/64204646 ,
          wird ab API-Level 30 für Methode wirdIntentUnterstuetzt() benötigt
@@ -32,6 +34,6 @@
         <intent>
             <action android:name="de.mide.custom_action.zeige_lernkarte" />
         </intent>
-    </queries>    
+    </queries>
 
 </manifest>

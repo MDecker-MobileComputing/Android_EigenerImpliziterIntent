@@ -1,4 +1,4 @@
-package de.mide.lernkarten.sender;
+package de.mide.lernkarten.empfaenger;
 
 import org.junit.Test;
 

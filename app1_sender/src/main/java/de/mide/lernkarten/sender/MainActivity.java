@@ -39,7 +39,7 @@ public class MainActivity extends Activity {
      * <br><br>
      *
      * Diese Methode wird in der Layout-Datei mit dem Attribut
-     * <i>android:onClick</i> zugewiesen.
+     * {@code android:onClick} zugewiesen.
      *
      * @param view  Button, der Event ausgelöst hat (wird nicht ausgewertet).
      */
@@ -64,7 +64,7 @@ public class MainActivity extends Activity {
      * <br><br>
      *
      * Diese Methode wird in der Layout-Datei mit dem Attribut
-     * <i>android:onClick</i> zugewiesen.
+     * {@code android:onClick} zugewiesen.
      *
      * @param view  Button, der Event ausgelöst hat (wird nicht ausgewertet).
      */
@@ -87,11 +87,11 @@ public class MainActivity extends Activity {
      * Die Methode überprüft, ob es für den als Parameter übergebenen Intent eine
      * passende Zielkomponente auf dem Android-Gerät gibt.
      * Wenn es keine Komponente gibt, dann wird eine Fehlermeldung als Dialog
-     * ausgegeben und <i>false</i> als Ergebnis zurückgeliefert.
+     * ausgegeben und {@code false} als Ergebnis zurückgeliefert.
      * <br><br>
      *
-     * Wenn diese Methode für einen Intent <i>false</i> liefert, der Intent aber
-     * trotzdem mit <i>startActivity(intent)</i> abgesetzt wird, dann stürzt
+     * Wenn diese Methode für einen Intent {@code false} liefert, der Intent aber
+     * trotzdem mit {@code startActivity(intent)} abgesetzt wird, dann stürzt
      * die App ab.
      * <br><br>
      *
@@ -107,8 +107,8 @@ public class MainActivity extends Activity {
      * zurückgeliefert. Für uns ist aber nur wichtig, ob es wenigstens eine
      * App gibt, die den Intent verarbeiten/empfangen kann.
      *
-     * @return <i>true</i>, wenn es mindestens einen Receiver für
-     *         den <i>intent</i> gibt, sonst <i>false</i>.
+     * @return {@code true}, wenn es mindestens einen Receiver für
+     *         den {@code intent} gibt, sonst {@code false}.
      */
     protected boolean wirdIntentUnterstuetzt(Intent intent) {
 
@@ -129,7 +129,7 @@ public class MainActivity extends Activity {
 
 
     /**
-     * Hilfs-Methode, um <i>nachricht</i> mit einem Dialog anzuzeigen.
+     * Hilfs-Methode, um {@code nachricht} mit einem Dialog anzuzeigen.
      *
      * @param nachricht  Im Dialog anzuzeigender Text.
      */
