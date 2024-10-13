@@ -2,15 +2,16 @@
 
 <br>
 
-Two apps demonstrating how to use a **custom implicit intent** to send data (learning cards) from one app to another app.
+Dieses Repository enthält ein "Android Studio"-Projekt mit zwei nativen Android-Apps (Java), die zeigen, 
+wie man einen eigenen impliziten Intent verschickt und auch empfängt.
 
 <br>
 
-This Android Studio project contains two apps modules:
+Die beiden Apps sind als zwei Module im "Android Studio"-Projekt enthalten:
 
-* `app1_sender`: App sending a learning card using a custom implicit intent.
+* [app1_sender](app1_sender): Eine App, die Lernkarten als eigener impliziter Intent verschickt.
 
-* `app2_empfaenger`: App for displaying a learning card received via implicit intent.
+* [app2_empfaenger](app2_empfaenger): Eine App, die die Lernkarten anzeigt.
 
 <br>
 
@@ -18,13 +19,9 @@ This Android Studio project contains two apps modules:
 
 <br>
 
-Identifiers (names for classes, variables and methods), UI text and (JavaDoc) comments are in German only.
-
-<br>
-
 ----
 
-## Screenshots from app 1 (Sender of learning card) ##
+## Screenshots von App 1 (Lernkarten-Sender) ##
 
 <br>
 
@@ -34,7 +31,7 @@ Identifiers (names for classes, variables and methods), UI text and (JavaDoc) co
 
 ----
 
-## Screenshots from app 2 (Receiver of learning card) ##
+## Screenshots von App 2 (Lernkarten-Empfänger) ##
 
 <br>
 
@@ -45,6 +42,7 @@ Identifiers (names for classes, variables and methods), UI text and (JavaDoc) co
 <br>
 
 ----
+
 ## License #
 
 <br>
