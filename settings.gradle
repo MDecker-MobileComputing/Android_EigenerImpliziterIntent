@@ -1,6 +1,12 @@
 pluginManagement {
     repositories {
-        google()
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
         mavenCentral()
         gradlePluginPortal()
     }
@@ -13,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Eigener Impliziter Intent"
+rootProject.name = "Lernkarten-Sender"
 include ':app1_sender'
 include ':app2_empfaenger'
