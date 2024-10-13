@@ -15,7 +15,7 @@ Die beiden Apps sind als zwei Module im "Android Studio"-Projekt enthalten:
 
 <br>
 
-![Screenshot showing how to choose which app (module) to start](screenshot_ChooseAppModule.png) 
+![Screenshot: App/Module für Start auswählen](screenshot_ChooseAppModule.png) 
 
 <br>
 
