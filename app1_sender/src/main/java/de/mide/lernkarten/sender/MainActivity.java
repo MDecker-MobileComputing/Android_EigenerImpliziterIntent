@@ -2,12 +2,15 @@ package de.mide.lernkarten.sender;
 
 import android.os.Bundle;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.view.View;
+import android.widget.Toast;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
 
 
 /**
@@ -21,7 +24,7 @@ import android.view.View;
  *
  * This project is licensed under the terms of the BSD 3-Clause License.
  */
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     /**
      * Lifecycle-Methode zur Initialisierung des Activity-Objekts.
@@ -31,6 +34,24 @@ public class MainActivity extends Activity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        actionBarKonfigurieren();
+    }
+
+
+    /**
+     * Konfiguriert die ActionBar
+     */
+    private void actionBarKonfigurieren() {
+
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar == null) {
+
+            Toast.makeText( this, "Keine ActionBar vorhanden", Toast.LENGTH_LONG ).show();
+            return;
+        }
+
+        actionBar.setTitle( R.string.app_name );
     }
 
 

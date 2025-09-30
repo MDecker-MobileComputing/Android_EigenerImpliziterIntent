@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Lernkarten-SenderEmpfaenger"
+rootProject.name = "Lernkarten-Sender+Empfänger"
 include ':app1_sender'
 include ':app2_empfaenger'
