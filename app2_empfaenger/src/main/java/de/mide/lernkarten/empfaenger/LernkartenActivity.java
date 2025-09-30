@@ -1,11 +1,15 @@
 package de.mide.lernkarten.empfaenger;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
 
 
 /**
@@ -15,7 +19,7 @@ import android.widget.TextView;
  *
  * This project is licensed under the terms of the BSD 3-Clause License.
  */
-public class LernkartenActivity extends Activity {
+public class LernkartenActivity extends AppCompatActivity {
 
     /** TextView für Vorder- oder Hinterseite der Lernkarte. */
     protected TextView _textviewLernkarte = null;
@@ -24,7 +28,9 @@ public class LernkartenActivity extends Activity {
      * Button-Objekt, mit dem die "Rückseite" der Lernkarte
      * mit der Antwort angezeigt werden kann.
      */
-    protected Button _buttonRueckseite = null;
+    private Button _buttonRueckseite = null;
+
+    private ActionBar _actionBar = null;
 
 
     /**
@@ -38,16 +44,32 @@ public class LernkartenActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lernkarte);
 
-        setTitle(R.string.title_lernkarte_vorne);
-
         // Intent holen, mit dem diesen Activity aufgerufen wurde.
         Intent intent = getIntent();
         String textVorne = intent.getStringExtra("text_vorne");
+
+        actionBarKonfigurieren();
 
         _textviewLernkarte = findViewById(R.id.textview_lernkarte);
         _textviewLernkarte.setText(textVorne);
 
         _buttonRueckseite = findViewById( R.id.button_rueckseite_zeigen );
+    }
+
+
+    /**
+     * Konfiguriert die ActionBar
+     */
+    private void actionBarKonfigurieren() {
+
+        _actionBar = getSupportActionBar();
+        if (_actionBar == null) {
+
+            Toast.makeText( this, "Keine ActionBar vorhanden", Toast.LENGTH_LONG ).show();
+            return;
+        }
+
+        _actionBar.setTitle( R.string.title_lernkarte_vorne );
     }
 
 
@@ -63,10 +85,10 @@ public class LernkartenActivity extends Activity {
 
         _textviewLernkarte.setText(textHinten);
 
-        setTitle(R.string.title_lernkarte_hinten);
+        if ( _actionBar != null ) {
 
-        // Button zum "Umdrehen" der Karte unsichtbar machen
-        _buttonRueckseite.setVisibility( View.INVISIBLE );
+            _actionBar.setTitle(R.string.title_lernkarte_hinten);
+        }
     }
 
 }

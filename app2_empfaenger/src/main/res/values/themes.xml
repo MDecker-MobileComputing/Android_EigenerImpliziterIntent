@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.LernkartenSenderEmpfänger" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.LernkartenEmpfaenger" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.LernkartenSenderEmpfänger" parent="Base.Theme.LernkartenSenderEmpfänger" />
+    <style name="Theme.LernkartenEmpfaenger" parent="Base.Theme.LernkartenEmpfaenger" />
 </resources>

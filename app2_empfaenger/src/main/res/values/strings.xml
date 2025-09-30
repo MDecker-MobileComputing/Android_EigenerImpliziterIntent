@@ -7,8 +7,8 @@
         einer anderen App empfangen und anzeigen.
     </string>
 
-    <string name="title_lernkarte_vorne"  >Lernkarte: Vorderseite (Frage)</string>
-    <string name="title_lernkarte_hinten" >Lernkarte: Rückseite (Antwort)</string>
+    <string name="title_lernkarte_vorne"  >Lernkarte: Vorderseite</string>
+    <string name="title_lernkarte_hinten" >Lernkarte: Rückseite</string>
 
     <string name="button_rueckseite_zeigen">Rückseite (Antwort) zeigen</string>
 
