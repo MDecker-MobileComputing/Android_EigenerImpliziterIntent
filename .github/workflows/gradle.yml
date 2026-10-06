@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Setup JDK
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v6
         with:
           java-version: '21'
           distribution: 'temurin'
@@ -22,14 +22,14 @@ jobs:
       - name: Aktuellen Zeitstempel in Umgebungsvariable kopieren
         run: echo "zeitstempel=$(date +'%Y-%m-%d_%H-%M')" >> $GITHUB_ENV
       - name: APK-Datei 1 hochladen
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: LernkartenSender_AndroidInstallFile-${{ env.zeitstempel }}
           path: app1_sender/build/outputs/apk/debug/app1_sender-debug.apk
           if-no-files-found: error
           retention-days: 2
       - name: APK-Datei 2 hochladen
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: LernkartenEmpfaenger_AndroidInstallFile-${{ env.zeitstempel }}
           path: app2_empfaenger/build/outputs/apk/debug/app2_empfaenger-debug.apk
